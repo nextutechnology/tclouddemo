@@ -11,7 +11,7 @@ terraform {
   }
 }
 
-# ---------- PROVIDERS (2 REGIONS) ----------
+# ---------- PROVIDERS (2 REGIONS) ---------
 provider "aws" {
   region = "ap-south-1"
   alias  = "aps1"
